@@ -10,10 +10,8 @@ class Shape {
                     System.out.println("Large triangle");
                 }
             }
-            case Rectangle r -> {
-                System.out.println("Rectangle");
-            }
-            default -> { System.out.println("wtf");}
+            case Rectangle r -> System.out.println("Rectangle");
+            default -> System.out.println("wtf");
         }
     }
 }
